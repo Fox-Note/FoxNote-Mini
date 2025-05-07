@@ -1,6 +1,6 @@
 🦊 FoxNote Mini – Lite Version
 
-Version 1.0;
+Version 1.0
 
 - [ ] Add notes,
 - [ ] View notes,
