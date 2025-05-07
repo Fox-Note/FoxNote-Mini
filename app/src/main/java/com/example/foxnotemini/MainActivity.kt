@@ -1,6 +1,7 @@
 package com.example.foxnotemini
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +16,11 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }
+
+        val button = findViewById<Button>(R.id.addNoteButton)
+        button.setOnClickListener {
+            setContentView(R.layout.view_notes)
         }
     }
 }
